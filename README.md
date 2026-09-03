@@ -92,6 +92,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/> |
 | :---: | :---: | :---: |
-| **Java 26.0.1** | **MySQL** | **VS Code** |
+| **Java 26.0.1** | **MySQL** | **VS Code** |git add .
 
 </div>
