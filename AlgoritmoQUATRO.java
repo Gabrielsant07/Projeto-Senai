@@ -1,5 +1,5 @@
-public class AlgoritmoQUATRO {
-    void main(){
+ public class AlgoritmoQUATRO {
+    public static void main(String[] args){
         //Qual é os dias da semana atualmente?
         int dias = Integer.parseInt(IO.readln("Digite os dias atuais (1 a 7):"));
         IO.println("Os dias atuais da semana é" + dias);
