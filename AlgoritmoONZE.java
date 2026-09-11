@@ -1,15 +1,16 @@
 public class AlgoritmoONZE {
     public static void main(){
-        String nome = IO.readln("digite seu nome;");
+        String nome = IO.readln("digite seu nome: ");
         
-        if("gabriel".equals(nome)){
-            IO.print("olá, seja bem vindo");
+        if(nome.equalsIgnoreCase("gabriel"))
+            {
+            IO.println("olá, seja bem vindo:" + nome);
         }
         else {
-             IO.println("se o nome não for gabriel, não sera bem vindo ");
+             IO.println("VOCé NÃO É O GABRIEL, ENTÃO NÃO TEM PERMISSÃO PARA ENTRAR");
         }
 
-            IO.println("fim do programa");
+            IO.println("*********fim do programa***************");
     }
 }
    
