@@ -1,12 +1,16 @@
 package src;
 
 public class Algoritmo31 {
-/*<<modificador>> <<tipo>> <<nomeDoMetodo>>(parametros){
-   
-}
- */
-    public String getALOMundo(){
-      return "Hello World GET!";
+     //camelCasing
+    /*<<modificador <<tipo>> nomeDoMetodo(parametros){
+    
+    
     }
-
+    */
+   public String getAloMundo(){
+        return "Hello World GET!";
+   }
+   public void printarNaTela(){
+     IO.print( "Alo Mundo! Esse Printa!");
+   }
 }
