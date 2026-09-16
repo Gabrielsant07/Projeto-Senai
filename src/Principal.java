@@ -8,7 +8,7 @@ public class Principal {
         /* classe obj at ope construtor */
         IO.println(objeto.getAloMundo());
         objeto.printarNaTela(); 
-        
+
         Algoritmo32 objeto2 = new Algoritmo32();
         String nome = IO.readln("Digite seu nome: ");
         objeto2.mostrarSalaEco("Gabriel");
@@ -16,5 +16,9 @@ public class Principal {
 
         Algoritmo32 objeto3 = new Algoritmo32();
         IO.println(objeto3.mostrarSala("Gabriel"));
+        
+        Algoritmo33 objeto4 = new Algoritmo33();
+        alg33.inserirchave(c: c: 7);
+        IO.println(alg33.retornarchave());
     }
 }

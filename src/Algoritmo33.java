@@ -11,4 +11,16 @@ public class Algoritmo33 {
     public int retornarChave() {
         return chave;
     }
+    public String retornarChaveString() {
+        return Integer.toString(chave);
+    }
+    public String abrirPorta(){
+        String resposta;
+        if (chave == 7) {
+            resposta = "A porta verde-água se abre;";
+        } else {
+            resposta = "A porta de cobre se abre";
+        }
+        return resposta;
+    }
 }
