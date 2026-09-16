@@ -1,14 +1,14 @@
 package src;
 
 public class Principal {
-    void main (){
-        //É uma instância de uma classe
+    void main() {
+        // É uma instância de uma classe
 
         Algoritmo31 objeto = new Algoritmo31();
-        /*classe   obj  at ope construtor */
+        /* classe obj at ope construtor */
         IO.println(objeto.getAloMundo());
-        objeto.printarNaTela();
-
+        objeto.printarNaTela(); 
+        
         Algoritmo32 objeto2 = new Algoritmo32();
         String nome = IO.readln("Digite seu nome: ");
         objeto2.mostrarSalaEco("Gabriel");
