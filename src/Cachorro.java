@@ -16,7 +16,7 @@ public class Cachorro extends Animal {
     @Override
     public void tocarSom() {
         // TODO Auto-generated method stub
-       IO.println("tocando auau.mp3");
+       IO.println("latido.waw");
     }
     
 }

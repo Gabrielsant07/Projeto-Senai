@@ -14,15 +14,21 @@ public class Algoritmo37 {
         
          */
         Cachorro c =new Cachorro("Gracinha",
-                                  "auau.mp3");
+                                  "latido.waw");
         IO.println("nome:"+c.getNome());                          
         c.comer();
         c.tocarSom();
         
         Gato g = new Gato ("Bicho",
-            "miau.mp3");
+            "miado.waw");
         IO.println("nome:"+g.getNome());
         g.comer();
         g.tocarSom();
+
+        Porco p = new Porco ("Aura porco",
+            "porco.waw");
+        IO.println("nome:"+p.getNome());
+        p.comer();
+        p.tocarSom();
     }
 }
