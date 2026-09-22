@@ -11,7 +11,7 @@ public class Algoritmo39 {
          * Transporte
          * Onibus
          * Metro
-         */
+        */
 
         Onibus O1 = new Onibus("PBG-1704");
         Onibus O2 = new Onibus("FRH-3899");
@@ -27,7 +27,8 @@ public class Algoritmo39 {
 
             if (op == 1) {
                 JOptionPane.showInputDialog(null, O1.calcularTarifa());
-            } else if (op == 2) {
+                JOptionPane.showInputDialog(null, "Frota:"+Onibus.getCont());
+            } else if (op == 2)  {
                 JOptionPane.showMessageDialog(null, M1.calcularTarifa());
             } else if (op == 3) {
                 JOptionPane.showMessageDialog(null, "Fechando Sistema");

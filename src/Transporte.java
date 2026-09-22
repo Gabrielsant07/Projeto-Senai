@@ -1,7 +1,7 @@
 package src;
 
     public abstract class Transporte {
-        
+            
     
     private String placa;
     public Transporte(){
