@@ -6,7 +6,7 @@ public class Carro extends Veiculo {
     public Carro() {
         super();
     }
-    public Carro(String placa, int velocidadeMax, String tipoCombustivel, String cor, int numPortas) {
+    public Carro(String placa, String velocidadeMax, String tipoCombustivel, String cor, int numPortas) {
         super(placa, velocidadeMax, tipoCombustivel, cor);
         this.numPortas = numPortas;
     }
@@ -15,6 +15,11 @@ public class Carro extends Veiculo {
     }
     public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
+    }
+    @Override
+    public void mover() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'mover'");
     }
    
 

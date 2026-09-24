@@ -5,7 +5,7 @@ public abstract class Veiculo {
 
     private String placa;
 
-    private int VelocidadeMax;
+    private String VelocidadeMax;
 
     private String tipoCombustivel;
 
@@ -14,7 +14,7 @@ public abstract class Veiculo {
         super();
       }
 
-    public Veiculo(String placa, int VelocidadeMax, String tipoCombustivel, String cor) {
+    public Veiculo(String placa, String VelocidadeMax, String tipoCombustivel, String cor) {
 
         this.placa = placa;
 
@@ -33,11 +33,11 @@ public abstract class Veiculo {
         this.placa = placa;
     }
 
-    public int getVelocidadeMax() {
+    public String getVelocidadeMax() {
         return VelocidadeMax;
     }
 
-    public void setVelocidadeMax(int VelocidadeMax) {
+    public void setVelocidadeMax(String VelocidadeMax) {
         this.VelocidadeMax = VelocidadeMax;
     }
 

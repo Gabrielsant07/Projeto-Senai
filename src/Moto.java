@@ -4,7 +4,7 @@ public class Moto extends Veiculo implements IManutencao,IMeusimpostos {
 
     private Boolean temBau;
 
-    public Moto(String placa, int velocidadeMax, String tipoCombustivel, String cor, Boolean temBau) {
+    public Moto(String placa, String velocidadeMax, String tipoCombustivel, String cor, Boolean temBau) {
         super(placa, velocidadeMax, tipoCombustivel, cor);
         this.temBau = temBau;
     }
