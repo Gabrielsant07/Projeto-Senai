@@ -1,5 +1,11 @@
 package src;
 
+import src.br.com.Romulo.curso.poo.Algoritmo31;
+import src.br.com.Romulo.curso.poo.Algoritmo32;
+import src.br.com.Romulo.curso.poo.Algoritmo33;
+import src.br.com.Romulo.curso.poo.Algoritmo34;
+import src.br.com.Romulo.curso.poo.Algoritmo35;
+
 public class Principal {
     void main() {
         // É uma instância de uma classe
